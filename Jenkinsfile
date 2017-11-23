@@ -10,7 +10,7 @@ pipeline {
         stage('SonarQube analysis') {
             steps {
                 withSonarQubeEnv('sonar') {
-                    sh '${scannerHome}/bin/sonar-runner'
+                    sh '${scannerHome}/bin/sonar-runner -X'
                 }
             }
         }
