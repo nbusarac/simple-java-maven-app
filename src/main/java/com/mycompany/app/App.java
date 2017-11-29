@@ -11,7 +11,7 @@ public class App
         System.out.println( "Hello World!" );
 
         int n = 10;
-	while(n--){
+	while(n--==0){
             
         }
     }
